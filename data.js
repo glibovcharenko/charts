@@ -37,6 +37,7 @@ async function fetchAndPopulateData() {
 
 // Populate user information in UI
 function populateUserInfo(userInfo) {
+  console.log(userInfo)
   studentName.innerText = `${userInfo.attrs.firstName} ${userInfo.attrs.lastName}`;
   studentGitea.action = `https://01.kood.tech/git/${userInfo.login}`;
   studentEmail.innerText = userInfo.attrs.email;
