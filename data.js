@@ -12,7 +12,7 @@ const skills = document.getElementById('skills');
 async function fetchAndPopulateData() {
   const token = localStorage.getItem('token');
   if (!token) {
-    location.replace('/index.html');
+    location.replace('/charts/index.html');
     return;
   }
 
@@ -96,7 +96,7 @@ function attachLogoutListener() {
   const logoutBtn = document.getElementById('logout-btn');
   logoutBtn.addEventListener('click', () => {
     localStorage.removeItem('token');
-    location.replace('/index.html');
+    location.replace('/charts/index.html');
   });
 }
 
