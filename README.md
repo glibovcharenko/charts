@@ -20,12 +20,13 @@ No, I am not storing your data.
 - ### [GraphQL](https://graphql.org/)
 
 ## Deploy
-You can test the project from the page []]()
+You can test the project from the page [https://glibovcharenko.github.io/]()
 
 ## Local Audit
 Clone the repository
 ```
-git clone https://01.kood.tech/git/govchare/graphql.git
+git clone https://github.com/glibovcharenko/glibovcharenko.github.io
+
 ```
 
 Run <code>index.html</code> file with LiveServer extension
@@ -36,4 +37,4 @@ You can check out the audit questions here: [audit questions](
 )
 
 ## Authors
-- [Glib Ovcharenko](https://01.kood.tech/git/govchare)
+- [Glib Ovcharenko](https://github.com/glibovcharenko)
