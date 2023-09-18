@@ -20,7 +20,7 @@ No, I am not storing your data.
 - ### [GraphQL](https://graphql.org/)
 
 ## Deploy
-You can test the project from the page [https://glibovcharenko.github.io/charts/]()
+You can test the project from the page [https://glibovcharenko.github.io/charts]()
 
 ## Local Audit
 Clone the repository
