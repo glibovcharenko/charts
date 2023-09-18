@@ -39,7 +39,7 @@ async function fetchAndPopulateData() {
 function populateUserInfo(userInfo) {
   console.log(userInfo)
   studentName.innerText = `${userInfo.attrs.firstName} ${userInfo.attrs.lastName}`;
-  studentGitea.action = `https://01.kood.tech/git/${userInfo.login}`;
+  studentGitea.href = `https://01.kood.tech/git/${userInfo.login}`;
   studentEmail.innerText = userInfo.attrs.email;
   studentAuditRatio.innerText = `Your audit ratio: ${calculateAuditRatio(userInfo.totalUp, userInfo.totalDown)}`;
   console.log(userInfo)
